@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #000;
+    font-family: 'Poppins' sans-serif;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+}
+
+.footer-about {
+    display: block;
+}
+
+.footer-about h2 {
+    padding-bottom: 20px;
+}
+
+.social-media ul {
+    display: flex;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.social-media ul li a {
+    font-size: 30px;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.social-media ul li a:hover {
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-about {
+    padding: 50px;
+}
+
+.footer-link {
+    padding: 50px;
+    line-height: 1.7;
+}
+
+.footer-link ul li a:hover {
+    color: aqua;
+}
+
+.footer-contact {
+    padding: 50px;
+    line-height: 1.4;
+}
+
+.footer-contact a:hover,
+p:hover {
+    color: aqua;
+}
+
+.cpy-rght {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+}
+
+h2:hover {
+    color: aqua;
+}
